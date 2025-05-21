@@ -1,6 +1,9 @@
 export default {
+  allRightsReserved: 'Tüm hakları saklıdır.',
   login: {
+    tabLabel: 'Yetkilendirme',
     header: 'Giriş',
+    description: 'Kullanıcı adınızı ve şifrenizi girin',
     username: 'Kullanıcı adı',
     password: 'Şifre',
     passwordConfirmation: 'Şifre onayı',
@@ -26,7 +29,9 @@ export default {
     },
   },
   register: {
+    tabLabel: 'Kayıt',
     header: 'Kayıt ol',
+    description: 'Yeni bir hesap oluştur',
     email: 'E-posta',
     backToLoginButton: 'Giriş ekranına dön',
 
@@ -34,8 +39,10 @@ export default {
       success: 'Başarıyla kayıt oldunuz.',
       error: 'Kayıt olurken bir hata oluştu.',
     },
+    submit: 'Kayıt ol',
   },
   recovery: {
+    tabLabel: 'Kurtarma',
     header: 'Şifremi sıfırla',
     description:
       'E-postanıza kod gönderilecektir. Lütfen e-posta adresinize tıklayın.',
@@ -46,7 +53,13 @@ export default {
     submit: 'İleri',
     send: 'Gönder',
   },
+  newPassword: {
+    tabLabel: 'Yeni Şifre',
+    header: 'Yeni Şifre',
+    description: 'Yeni şifrenizi girin',
 
+    submit: 'Şifre Değiştir',
+  },
   characters: {
     title: 'Karakter Seç',
     description: 'Oynamak için bir karakter seçin',
@@ -170,6 +183,44 @@ export default {
       back: 'Geri',
       next: 'İleri',
       finish: 'Bitir',
+    },
+  },
+  rules: {
+    modal: {
+      title: 'Sunucu Kuralları',
+      description: 'Lütfen katılmadan önce sunucu kurallarımızı dikkatlice okuyun.',
+    },
+    age: {
+      title: 'Yaş Gerekliliği',
+      description: 'Bu sunucuya katılmak için en az 15 yaşında olmalısınız.',
+    },
+    general: {
+      title: 'Genel Kurallar',
+      respectful: 'Tüm üyelere saygılı olun',
+      noHarassment: 'Taciz, nefret söylemi veya zorbalık yok',
+      noSpam: 'Spam veya kendi tanıtımınızı yapmayın',
+      noNSFW: 'NSFW içerik yok',
+      useChannels: 'Tartışmalar için uygun kanalları kullanın',
+      followToS: "Discord'un Hizmet Şartlarına uyun",
+    },
+    voice: {
+      title: 'Sesli Sohbet Kuralları',
+      clearMic: 'Net bir mikrofon kullanın',
+      noVoiceChangers: 'Ses değiştirici veya ses kartı kullanmayın',
+      noMusic: 'Mikrofon aracılığıyla müzik çalmayın',
+      noNoise: 'Arka plan gürültüsünü minimumda tutun',
+    },
+    gaming: {
+      title: 'Oyun Kuralları',
+      noCheating: 'Hile veya istismar yapma',
+      beFair: 'Adil ve sportmen ol',
+      reportBugs: 'Hataları moderatörlere bildirin',
+      followChannelRules: 'Özel oyun kanalı kurallarına uyun',
+    },
+    consequences: {
+      title: 'Sonuçlar',
+      description:
+        'Bu kuralların ihlali, ihlalin ciddiyetine ve sıklığına bağlı olarak uyarılar, geçici susturmalar veya kalıcı yasaklamalarla sonuçlanabilir.',
     },
   },
 };
